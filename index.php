@@ -111,8 +111,9 @@ if (isset($_GET["stars"])){
     <table class="table">
         <thead>
             <tr>
+                <!-- foreach ($hotels[0] as $key => $property) -->
                 <th scope="col"> 
-                    Name
+                    Name<!--  echo $key -->
                 </th>
                 <th>
                     Description
